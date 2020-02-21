@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jangan_ahh">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/gans" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="Badar Maulana"
+        android:textAlignment="center"
+        android:textSize="20pt"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="465dp"
+        android:text="Instagram: @badadarr"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:text="Gmail: badar.maulana.techno@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+</RelativeLayout>
